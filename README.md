@@ -15,8 +15,9 @@ this format used by ClamAV, you may adopt it for antivirus or other tools you're
 
 PS
 
-This tool was written due to solution not found over WWW.
+This tool was written due to solution not found over WEB.
 
 Somehow ClamAV found many false-positive files and moved it in one quarantine folder.
-The log I got - han neccesary information, so i written it in bash i do not know :) so sorry for some ugly code if any.
+The log I got - had neccesary information, so i written it in bash i do not know :) so sorry for some ugly code if any.
+
 Your feedback is always appreciated! BR
