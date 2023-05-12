@@ -1,7 +1,6 @@
 #!/bin/bash
 echo "ClamAV quarantined files recover tool by Shrizt"
-echo "May be adopted to other antivirus tools. Using regex to parse."
-echo "Syntax is './clamav-recover.sh /dir/clamav.log --restore"
+echo "Syntax is './clamav-qrecover.sh /path/to/clamav.log --restore"
 
 input=$1
 restore=$2
@@ -26,11 +25,11 @@ do
   else
    echo "file ${file1}";
    echo "moved to ${fileQ}";
+  fi
  fi
 
 done < "$input"
 
 echo "Total files in log:$i"
 echo "ClamAV quarantined files recover tool by Shrizt"
-echo "Syntax is './clamav-recover.sh /dir/clamav.log --restore"
-
+echo "Syntax is './clamav-qrecover.sh /dir/clamav.log --restore"
